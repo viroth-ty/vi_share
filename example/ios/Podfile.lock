@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - vi_share (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - vi_share (from `.symlinks/plugins/vi_share/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  vi_share:
+    :path: ".symlinks/plugins/vi_share/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  vi_share: f1d95493b406c8317bd2de349c01eaebe14d5d22
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.8.4
