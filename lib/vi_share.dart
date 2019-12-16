@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
 class ViShare {
@@ -13,5 +14,12 @@ class ViShare {
 
   static get showAlertDialog async {
     await _channel.invokeMethod('showAlertDialog');
+  }
+
+  static void shareToFacebook({@required String contentURL, String message = ""}) async {
+    await _channel.invokeMethod('shareToFacebook',<String, String>{
+      'url': contentURL,
+      'message': message,
+    });
   }
 }

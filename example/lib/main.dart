@@ -39,13 +39,28 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('Plugin example app'),
         ),
-        body: Center(
-          child: FlatButton(
-            onPressed: () {
-              ViShare.showAlertDialog();
-            },
-            child: Text("show"),
-          ),
+        body: Column(
+          children: <Widget>[
+            Center(
+              child: FlatButton(
+                onPressed: () {
+                  ViShare.showAlertDialog();
+                },
+                child: Text("show"),
+              ),
+            ),
+            Center(
+              child: FlatButton(
+                onPressed: () {
+                  ViShare.shareToFacebook(
+                    contentURL: "https://developers.facebook.com/docs/ios/getting-started/",
+                    message: "Testing sharing"
+                  );
+                },
+                child: Text("shareToFacebook"),
+              ),
+            )
+          ],
         ),
       ),
     );
