@@ -46,15 +46,18 @@ class _MyAppState extends State<MyApp> {
                 onPressed: () {
                   ViShare.showAlertDialog();
                 },
-                child: Text("Show dialog"),
+                child: Text("show"),
               ),
             ),
-            Container(
+            Center(
               child: FlatButton(
                 onPressed: () {
-                  ViShare.showAlertDialog(url: "http://www.google.com", msg: "");
+                  ViShare.shareToFacebook(
+                    contentURL: "https://developers.facebook.com/docs/ios/getting-started/",
+                    message: "Testing sharing"
+                  );
                 },
-                child: Text("Share to Facebook"),
+                child: Text("shareToFacebook"),
               ),
             )
           ],

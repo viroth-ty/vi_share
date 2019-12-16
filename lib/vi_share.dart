@@ -18,4 +18,11 @@ class ViShare {
     arguments.putIfAbsent('url', () => url);
     await _channel.invokeMethod('shareFacebook', arguments);
   }
+
+  static void shareToFacebook({@required String contentURL, String message = ""}) async {
+    await _channel.invokeMethod('shareToFacebook',<String, String>{
+      'url': contentURL,
+      'message': message,
+    });
+  }
 }
