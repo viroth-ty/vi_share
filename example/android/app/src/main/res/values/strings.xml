@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">vi_share</string>
+    <string name="facebook_app_id">219734385221470</string>
+    <string name="fb_login_protocol_scheme">fb219734385221470</string>
+    <string name="click_me_to_share">Click me to share</string>
+    <string name="facebook_client_token">6533bffd43b731abd77d81888599a60a</string>
+</resources>

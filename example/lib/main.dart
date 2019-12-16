@@ -39,13 +39,25 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('Plugin example app'),
         ),
-        body: Center(
-          child: FlatButton(
-            onPressed: () {
-              ViShare.showAlertDialog();
-            },
-            child: Text("show"),
-          ),
+        body: Column(
+          children: <Widget>[
+            Center(
+              child: FlatButton(
+                onPressed: () {
+                  ViShare.showAlertDialog();
+                },
+                child: Text("Show dialog"),
+              ),
+            ),
+            Container(
+              child: FlatButton(
+                onPressed: () {
+                  ViShare.showAlertDialog(url: "http://www.google.com", msg: "");
+                },
+                child: Text("Share to Facebook"),
+              ),
+            )
+          ],
         ),
       ),
     );

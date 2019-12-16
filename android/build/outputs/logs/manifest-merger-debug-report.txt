@@ -1,0 +1,19 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml:1:1-3:12
+	package
+		ADDED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml:2:3-34
+		INJECTED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml
+		INJECTED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml
+INJECTED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml
+		ADDED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml
+		INJECTED from /home/tyviroth/Documents/Flutter plug in/vi_share/android/src/main/AndroidManifest.xml
