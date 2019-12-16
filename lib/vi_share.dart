@@ -11,14 +11,6 @@ class ViShare {
     return version;
   }
 
-  static showAlertDialog({@required String url, String msg}) async {
-    await _channel.invokeMethod('showAlertDialog');
-    final Map<String, Object> arguments = Map<String, String>();
-    arguments.putIfAbsent('msg', () => msg);
-    arguments.putIfAbsent('url', () => url);
-    await _channel.invokeMethod('shareFacebook', arguments);
-  }
-
   static void shareToFacebook({@required String contentURL, String message = ""}) async {
     await _channel.invokeMethod('shareToFacebook',<String, String>{
       'url': contentURL,
