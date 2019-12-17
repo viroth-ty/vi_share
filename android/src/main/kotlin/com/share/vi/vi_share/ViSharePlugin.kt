@@ -40,11 +40,10 @@ class ViSharePlugin(activity: Context?, methodChannel: MethodChannel) : MethodCa
     if (call.method == "getPlatformVersion") {
       result.success("Android ${android.os.Build.VERSION.RELEASE}")
     }
-    else if(call.method == "showAlertDialog") {
+    else if(call.method == "shareToFacebook") {
       url = call.argument<String>("url").toString()
       msg = call.argument<String>("msg").toString()
 
-      Toast.makeText(activity, "Fuck you viroth", Toast.LENGTH_SHORT).show()
       shareToFacebook(url, msg, result)
     }
     else {
