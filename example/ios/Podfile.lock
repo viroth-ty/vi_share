@@ -5,9 +5,9 @@ PODS:
   - FBSDKCoreKit/Basics (5.13.0)
   - FBSDKCoreKit/Core (5.13.0):
     - FBSDKCoreKit/Basics
-  - FBSDKShareKit (5.13.0):
-    - FBSDKShareKit/Share (= 5.13.0)
-  - FBSDKShareKit/Share (5.13.0):
+  - FBSDKShareKit (5.13.1):
+    - FBSDKShareKit/Share (= 5.13.1)
+  - FBSDKShareKit/Share (5.13.1):
     - FBSDKCoreKit (~> 5.0)
   - Flutter (1.0.0)
   - vi_share (0.0.1):
@@ -32,10 +32,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSDKCoreKit: b1645dba3dfdba6102f2d4026fdbfca8114dc229
-  FBSDKShareKit: 3e5d1a92009ad4ccb1ca824cc329794cafccb41d
+  FBSDKShareKit: 8a0e4d7172c7b706991c834cff2bf74e7b4726e3
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   vi_share: dfe4e6fc08a9fedd0ae6c71a926bdb47fa94774e
 
 PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.0.beta.1

@@ -65,7 +65,7 @@ class ViSharePlugin(activity: Context?, methodChannel: MethodChannel) : MethodCa
 
     var content = ShareLinkContent
             .Builder()
-            .setContentUrl(Uri.parse("https://developers.facebook.com"))
+            .setContentUrl(Uri.parse(url))
             .build()
 
     if (ShareDialog.canShow(ShareLinkContent::class.java)) {

@@ -1,12 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.android:facebook-android-sdk:5.13.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-5.13.0.aar/6ba2ef8bacf65b964c3888cc760284ad/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-5.13.0.aar/6ba2ef8bacf65b964c3888cc760284ad/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-5.13.0.aar/de481e5c652a8753b658f0e6b6be9dc0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-5.13.0.aar/de481e5c652a8753b658f0e6b6be9dc0/res" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/5.13.0/8e5e0e24203b94da0439b4bcf907df771385e3db/facebook-android-sdk-5.13.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/5.13.0/e50e7495c2931d78401bf57c7cb512e11106b9a9/facebook-android-sdk-5.13.0-sources.jar!/" />
     </SOURCES>
